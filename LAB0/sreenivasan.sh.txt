@@ -1,0 +1,25 @@
+# EECE5554 LAB0
+
+1. Ubuntu 22.04 LTS installed
+2. ROS2 installed 
+    > printenv | grep ROS
+    ROS_VERSION=2
+    ROS_PYTHON_VERSION=3
+    ROS_LOCALHOST_ONLY=0
+    ROS_DISTRO=humble
+
+2. GitHub account created and Git installed in Ubuntu
+    > sudo apt install gh
+
+3. Turtlesim screenshot @ src/turtlesim.png
+    - simulation
+        `ros2 run turtlesim turtlesim_node`
+    - teleop key
+        `ros2 run turtlesim turtle_teleop_key`
+
+4. Publisher and subscriber at src/publisher.py and src/subscriber.py
+    To run
+        - create a python3 virtual env
+        - install packages - pip install LAB0/src/requirements.txt
+        - publisher -> python LAB0/src/publisher.py
+        - subscriber -> python LAB0/src/subscriber.py

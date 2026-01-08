@@ -17,7 +17,7 @@ class SimpleSubscriber(Node):
         self.get_logger().info('Subscriber has been started')
 
     def listener_callback(self, msg):
-        self.get_logger().info(f'Received: "{msg.data}"')
+        self.get_logger().info(f'I heard the: "{msg.data} HAHA"')
 
 
 def main(args=None):
