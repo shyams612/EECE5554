@@ -8,4 +8,4 @@ colcon build
 source install/setup.sh
 
 # run the driver
-ros2 launch gps_driver driver.launch.py port:=/dev/pts/3
+ros2 launch gps_driver driver.launch.py port:=/dev/ttyUSB0
