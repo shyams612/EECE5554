@@ -1,0 +1,44 @@
+--- Gyroscope Allan Variance ---
+  Computing X axis...
+
+
+    N (ARW)            = 9.3749e-05 rad/s/sqrt(s)
+    B (Bias stability) = 2.5050e-06 rad/s
+    K (RRW)            = 2.9539e-08 rad/s*sqrt(s)
+  Computing Y axis...
+    N (ARW)            = 1.1949e-04 rad/s/sqrt(s)
+    B (Bias stability) = 6.4463e-07 rad/s
+    K (RRW)            = 7.7526e-09 rad/s*sqrt(s)
+  Computing Z axis...
+    N (ARW)            = 8.9172e-05 rad/s/sqrt(s)
+    B (Bias stability) = 1.1855e-06 rad/s
+    K (RRW)            = 1.8080e-08 rad/s*sqrt(s)
+  Saved: gyroscope_allan_variance.png
+
+--- Accelerometer Allan Variance ---
+  Computing X axis...
+    N (ARW)            = 1.9224e-03 m/s^2/sqrt(s)
+    B (Bias stability) = 4.2570e-04 m/s^2
+    K (RRW)            = 5.7298e-05 m/s^2*sqrt(s)
+  Computing Y axis...
+    N (ARW)            = 1.9370e-03 m/s^2/sqrt(s)
+    B (Bias stability) = 5.9925e-04 m/s^2
+    K (RRW)            = 1.3075e-04 m/s^2*sqrt(s)
+  Computing Z axis...
+    N (ARW)            = 2.8734e-03 m/s^2/sqrt(s)
+    B (Bias stability) = 5.4735e-04 m/s^2
+    K (RRW)            = 4.6565e-05 m/s^2*sqrt(s)
+  Saved: accelerometer_allan_variance.png
+
+==============================================================
+PARAMETER SUMMARY
+==============================================================
+Sensor       Axis   N (ARW)          B (Bias)         K (RRW)         
+--------------------------------------------------------------
+Gyro         X      9.3749e-05       2.5050e-06       2.9539e-08      
+Gyro         Y      1.1949e-04       6.4463e-07       7.7526e-09      
+Gyro         Z      8.9172e-05       1.1855e-06       1.8080e-08      
+Accel        X      1.9224e-03       4.2570e-04       5.7298e-05      
+Accel        Y      1.9370e-03       5.9925e-04       1.3075e-04      
+Accel        Z      2.8734e-03       5.4735e-04       4.6565e-05      
+==============================================================
