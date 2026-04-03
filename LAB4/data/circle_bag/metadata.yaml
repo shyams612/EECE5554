@@ -1,0 +1,32 @@
+rosbag2_bagfile_information:
+  version: 5
+  storage_identifier: sqlite3
+  duration:
+    nanoseconds: 133000000000
+  starting_time:
+    nanoseconds_since_epoch: 58432000000000
+  message_count: 5107
+  topics_with_message_count:
+    - topic_metadata:
+        name: /imu
+        type: imu_msg/msg/Imumsg
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 4974
+    - topic_metadata:
+        name: /gps
+        type: gps_msg/msg/Gpsmsg
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 133
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - circle_bag_0.db3
+  files:
+    - path: circle_bag_0.db3
+      starting_time:
+        nanoseconds_since_epoch: 58432000000000
+      duration:
+        nanoseconds: 133000000000
+      message_count: 5107

@@ -1,0 +1,42 @@
+# ── ROS2 build artifacts ────────────────────────────────────────────────────
+build/
+install/
+log/
+
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# ── LaTeX files ──────────────────────────────────────────────────────────────
+analysis/Report.tex
+analysis/Report.aux
+analysis/Report.fdb_latexmk
+analysis/Report.fls
+analysis/Report.log
+analysis/Report.out
+analysis/Report.synctex.gz
+analysis/Report.toc
+
+# ── Data folder: keep only adventure_bag and circle_bag ──────────────────────
+data/gps_bag1/
+data/gps_bag2/
+data/imu_bag1/
+data/imu_bag2/
+data/gps_data1.txt
+data/gps_data2.txt
+data/imu_data1.txt
+data/imu_data2.txt
+data3.zip
+
+# ── ROS2 package test boilerplate ────────────────────────────────────────────
+src/*/test/
+
+# ── Resources folder ─────────────────────────────────────────────────────────
+resources/
+
+# ── Misc ─────────────────────────────────────────────────────────────────────
+notes.md
+*.zip

@@ -1,0 +1,17 @@
+{
+    "data_dir": "../data",
+    "bags": {
+        "circle": "circle_bag/circle_bag_0.db3",
+        "driving": "adventure_bag/adventure_bag_0.db3"
+    },
+    "topics": {
+        "gps": "/gps",
+        "imu": "/imu"
+    },
+    "results_dir": "results",
+    "yaw": {
+        "gyro_bias_window_s": 10,
+        "complementary_filter_fc_hz": 0.1,
+        "imu_rate_hz": 40.0
+    }
+}
