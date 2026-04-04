@@ -289,6 +289,7 @@ class GPSPublisher(Node):
                       fix.utc_time.second + 
                       fix.utc_time.microsecond / 1e6)
             
+            self.get_logger().info("Came here to publish data")
             self.publisher.publish(msg)
             
             # Log valid GPS data (throttled to once per second)
@@ -302,7 +303,7 @@ class GPSPublisher(Node):
         except StopIteration:
             pass
         except Exception as e:
-            self.get_logger().error(f"Error in publish_gps: {e}")
+            self.get_logger().info(f"Error in publish_gps: {e}")
 
 # -----------------------
 # Main
